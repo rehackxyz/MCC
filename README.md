@@ -42,6 +42,7 @@ Reference: https://cybercamp.my/mcc2024-step-up/
 ### MCC2024 Supporting Organisations and Partners:
 * [RE:UN10N CTF TEAM](https://x.com/reun10n_)
 * [Rectifyq](https://www.linkedin.com/company/rectifyq)
+* [Hack in the Box](https://www.hitb.org/)
 
 ## MCC2023 - SPEAK OUT
 <img src="https://cybercamp.my/wp-content/uploads/2023/10/junks.png" width=400>
