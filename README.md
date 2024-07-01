@@ -53,7 +53,7 @@ Location: Thistle Port Dickson, Negeri Sembilan
 * Guest speaker: Rizki Boisandie
 * Masta Ghimau - Cosmology beyond Nmap
 * Fareed - Digital Forensics and Incident Response for Beginners
-* Jasveer & Syah - BurpSuite Extension Development
+* Jasveer & Shah - BurpSuite Extension Development
 * Shahril & Jani - Red Teaming - Adversarial Attack Simulation
 
 Reference: https://cybercamp.my/mcc2023-the-journey-begins/
