@@ -9,7 +9,7 @@ MCC is a 4-days and 3-nights 'summer' camp organised by RE:HACK and Nanosec Asia
 Website: https://cybercamp.my/
 
 # Support
-This event is one of the programs initiated by RE:HACK, where we make use of the grant received from MOROS NET.\
+Starting from 2024, MCC event is included as one of the programs initiated by RE:HACK, where we make use of the grant received from MOROS NET.\
 Ref: https://morosnet.com/project/rehack-malaysia-cybersecurity-camp/
 <img src="https://github.com/rehackxyz/CyberSkillsLevelUp/assets/92614795/b2aec554-1e93-47f6-a976-457565503e14" width=700>
 
