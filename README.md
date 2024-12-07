@@ -18,12 +18,16 @@ Ref: https://morosnet.com/project/rehack-malaysia-cybersecurity-camp/
 <img src="https://cybercamp.my/wp-content/uploads/2024/05/zzz-modified.png" width=400>
 
 Date: 29 Nov - 2 Dec 2024\
-Location: ??
+Location: Pacific Regency Beach Resort Port Dickson
 
 Reference: https://cybercamp.my/mcc2024-step-up/
 
 ### MCC2024 Trainers:
-???
+* Guest speaker: Ms Ain from Cybersecurity Malaysia
+* Padlock Mechanisms: Max
+* Crash Course: IoT and Hardware Hacking: Naja and Fitri
+* Reverse Engineering Fundamentals: Azlan
+* Web Application Vulnerability Research: Ramadhan (Rempah)
 
 ### MCC2024 Sponsors:
 
@@ -31,17 +35,30 @@ Reference: https://cybercamp.my/mcc2024-step-up/
 * [MOROS NET](https://morosnet.com/)
 
 **RedHacker**
+* [AKATI Sekurity](https://www.akati.com/)
+* [Nexagate](https://www.nexagate.com/)
+* [Google Cloud Security](https://cloud.google.com/security/)
+* [Velum Labs](https://www.velumlabs.com/)
+* [Intelligence PC](https://www.intelligencepc.com/)
 
 **BlueHacker**
+* [APNIC](https://www.apnic.net/)
 * Anonymous sponsors
 
 **PurpleHacker**
 * [ASK Pentest](https://www.ask-pentest.com/)
+* [RunCloud](https://runcloud.io/)
+* [NLab Security](https://zeifan.my/)
+* Anonymous sponsors
 
 **Community**
 * [SANS Institute](https://www.sans.org/cyber-ranges/)
+* [CompTIA](https://www.comptia.org/)
+* [SYNTX](https://syntx.com.my/)
 
 ### MCC2024 Supporting Organisations and Partners:
+* [NACSA](https://www.nacsa.gov.my/)
+* [CSM](https://www.cybersecurity.my/)
 * [RE:UN10N CTF TEAM](https://x.com/reun10n_)
 * [Rectifyq](https://www.linkedin.com/company/rectifyq)
 * [Hack in the Box](https://www.hitb.org/)
