@@ -1,0 +1,12 @@
+The size of the files are big. Please download it from the following:
+
+slim - without any docker images, you need to execute ./bin/prepare for each module
+https://drive.google.com/file/d/1TdnIwv8zU5edJ74l_QBegCSncWFVQbAe/view?usp=drive_link
+
+full - a fully deployed docker, all you need is just to run ./bin/start
+https://drive.google.com/file/d/1AEI62iBJJrszhoRxQNj7E6oaSIxVeo9k/view?usp=drive_link
+
+code-only - only for the hardcore. source codes with the docker files are in here, then figure it out how to run them. 
+https://drive.google.com/file/d/1DXa-07zAvnNzz89LUcagc4XDZCkMgfIi/view?usp=drive_link
+
+If there's any error, please contact hello+mcc@rehack.my or crews@cybercamp.my
