@@ -9,10 +9,26 @@ MCC is a 4-days and 3-nights 'summer' camp organised by RE:HACK and Nanosec Asia
 Website: https://cybercamp.my/ \
 Twitter/X: https://x.com/CybercampMY
 
-# Support
-Starting from 2024, MCC event is included as one of the programs initiated by RE:HACK, where we make use of the grant received from MOROS NET.\
-Ref: https://morosnet.com/project/rehack-malaysia-cybersecurity-camp/
-<img src="https://github.com/rehackxyz/CyberSkillsLevelUp/assets/92614795/b2aec554-1e93-47f6-a976-457565503e14" width=700>
+## MCC2025 - CONQUER
+<img src="https://cybercamp.my/wp-content/uploads/2025/03/mcc2025-official.png" width=400>
+
+Date: 28 Nov - 1 Dec 2025\
+Location: Klana Beach Resort Port Dickson
+
+Reference: https://cybercamp.my/mcc2025-conquer/
+
+### MCC2025 Invited Speakers:
+* Guest speaker: Mr Sivanathan from CTOS
+* Bugbounty Night: Tan See Jou (@pinkmeimei, first rank in Malaysia Hackerone leaderboard)
+* Bugbounty Night: 0xMorph from Spearbit Labs
+
+### MCC2025 Trainers:
+* Rust Arterfacts Development for Red Team Operations: Fatah Hashim (MCC2022 Alumni) from Cybersecurity Malaysia
+* Mobile Application Security: KS (MCC2022 Alumni) and Kelvin (MCC2022 Alumni) 
+* Detection Engineering: neurose
+* Threat Intelligence Lifecycle: Rectifyq
+* Death from the Above - Exploiting and Defending Azure: Aniq Fakhrul from NLab Security
+* Hardware Village: Sarah (MCC2023 Alumni)
 
 ## MCC2024 - STEP UP
 <img src="https://cybercamp.my/wp-content/uploads/2024/05/zzz-modified.png" width=400>
@@ -21,6 +37,11 @@ Date: 29 Nov - 2 Dec 2024\
 Location: Pacific Regency Beach Resort Port Dickson
 
 Reference: https://cybercamp.my/mcc2024-step-up/
+
+# Support
+In from 2024, MCC event was included as one of the programs initiated by RE:HACK, where we used the grant received from MOROS NET. to assist our alumni's growth\
+Ref: https://morosnet.com/project/rehack-malaysia-cybersecurity-camp/
+<img src="https://github.com/rehackxyz/CyberSkillsLevelUp/assets/92614795/b2aec554-1e93-47f6-a976-457565503e14" width=700>
 
 ### MCC2024 Trainers:
 * Guest speaker: Ms Ain from Cybersecurity Malaysia
