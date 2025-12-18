@@ -30,6 +30,40 @@ Reference: https://cybercamp.my/mcc2025-conquer/
 * Death from the Above - Exploiting and Defending Azure: Aniq Fakhrul from NLab Security
 * Hardware Village: Sarah (MCC2023 Alumni)
 
+### MCC2025 Sponsors:
+
+**0day Hacker**
+* [MOROS NET](https://morosnet.com/)
+* [Velum Labs](https://www.velumlabs.com/)
+* [AKATI Sekurity](https://www.akati.com/)
+
+**RedHacker**
+* [Netpoleons Malaysia](https://www.netpoleons.com/)
+* Anonymous sponsors
+  
+**BlueHacker**
+* Anonymous sponsors
+
+**PurpleHacker**
+* [ASK Pentest](https://www.ask-pentest.com/)
+* [Hackerone](https://h1.community/events/details/hackerone-sponsored-conferences-events-presents-hackerone-sponsors-mcc2025-conquer-a-closed-door-cybersecurity-training-camp-in-malaysia/#:~:text=HackerOne%20proudly%20sponsors%20MCC2025%20%E2%80%93%20a,agenda%20to%20this%20Bevy%20event!)
+* [NLab Security](https://zeifan.my/)
+* Anonymous sponsors
+
+**Community**
+* [SYNTX](https://syntx.com.my/)
+* [Altered Security](https://www.alteredsecurity.com/)
+* [Mobile Hacking Lab](https://www.mobilehackinglab.com/)
+
+### MCC2025 Supporting Organisations and Partners:
+* [NACSA](https://www.nacsa.gov.my/)
+* [CSM](https://www.cybersecurity.my/)
+* [RE:UN10N CTF TEAM](https://x.com/reun10n_)
+* [Out of the Box](https://ootb.net/)
+* [Hack in the Box](https://www.hitb.org/)
+* [BSides Ahmedabad](https://bsidesahmedabad.in/)
+* [ICE](https://www.linkedin.com/company/ice-cybersecurity-enthusiast/posts/?feedView=all)
+
 ## MCC2024 - STEP UP
 <img src="https://cybercamp.my/wp-content/uploads/2024/05/zzz-modified.png" width=400>
 
